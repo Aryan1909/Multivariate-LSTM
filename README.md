@@ -1,5 +1,7 @@
 # Multivariate-LSTM
-I made this LSTM model to predict the drift in my DLI (Delay Line Interferometer) by taking visibilities as input and giving out bias-voltage outputs.
+I made this LSTM model to predict the drift in my DLI (Delay Line Interferometer) by taking visibilities as input and giving out bias-voltage outputs. It can easily be used to predict some moderately complex data with good training...
+
+
 Using this is very simple, just make different columns for all the inputs in the lstm in a .csv file and put the input column numbers in cols = list(df)[1:n+1] 
 (suppose you want the lstm to take column 1 to n so you should put as cols = list(df)[1:n+1]).
 
